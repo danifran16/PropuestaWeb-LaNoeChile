@@ -21,7 +21,7 @@ Finalmente en la seccion de Contacto, se encuentra los medios de comunicacion de
 
 ## Demo
 Para visualizar la pagina web pueden acceder al siguiente enlace: 
-
+https://lanoechile.netlify.app/
 
 
 ## Authors
