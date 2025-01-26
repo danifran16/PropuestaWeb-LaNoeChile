@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Quienes somos - La Noe Chile</title>
+  <title>Detalles Productos - La Noe Chile</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -25,9 +25,10 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
 
-<body class="about-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -39,8 +40,8 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="quienesSomos.html" class="active">Quienes Somos</a></li>
-          <li><a href="productos.html">Productos</a></li>
+          <li><a href="quienesSomos.html">Quienes Somos</a></li>
+          <li><a href="productos.html" class="active">Productos</a></li>
           <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
@@ -57,41 +58,81 @@
 
   <main class="main">
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Quienes Somos</h2>
-        <p>Somos una empresa dedicada a la elaboración y comercialización de aceites naturales puros y aromaterapia</p> <p>Poseemos una cartera de productos orientados principalmente a las terapias naturales, el bienestar y la salud</p>
+        <h2>Home Spray Menta Eucaliptus</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/quien-soy.png" class="img-fluid" alt="">
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/productos/spray-menta-eucaliptus.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
-          <div class="col-lg-8 content">
-            <h2>Historia</h2>
-            <p class="fst-italic py-3">
-              LA NOE SPA, nace como resultado de la experiencia comercial obtenida por emprendimientos anteriores. Uno de ellos es Natural Dreams Chile, este emprendimiento contiene a San Cannabis como línea de producto, pero desarrolla su propia línea de productos mezclando aceites vegetales puros y aceites vegetales puros con aceites esenciales, definiendo en su contenido las indicaciones terapéuticas propias de cada producto. Posterior a las 2 experiencias anteriores y dada la situación generada por la pandemia se crea La Noe Spa como respuesta a la situación de estrés producida por el encierro de la pandemia y la constante búsqueda de productos que complementen las ventas de los ya desarrollados.
-            </p>
 
-            <h2>Mision</h2>
-            <p>La Noe Spa se dedica a promover el bienestar y la salud a través de productos naturales, elaborados con aceites puros y esenciales. Se esfuerza por ofrecer soluciones efectivas y accesibles para el manejo de estrés, el alivio de dolencias musculares y el cuidado personal. También se busca educar a la comunidad sobre los beneficios de la aromaterapia y las terapias naturales.</p>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Informacion</h3>
+              <ul>
+                <li><strong>Categoria</strong>: Aromaterapia</li>
+                <li><strong>Precio</strong>: $10.990</li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Descripcion</h2>
+              <p>
+                Nuestro "Home Spray" es un tipo de producto utilizado para aromatizar y refrescar el ambiente de una casa o cualquier espacio cerrado. Viene en forma de aerosol, 
+              </p>
+              <h3>Ingredientes</h3>
+                <p>
+                  Contiene una mezcla de agua, aceites esenciales, y otros ingredientes que proporcionan una fragancia agradable al ser pulverizados en el aire
+                </p>
 
-            <h2>Vision</h2>
-            <p>Se busca ser reconocidos como lideres en el mercado nacional e internacional de la aromaterapia y terapias naturales, destacándonos por la calidad, innovación y efectividad de sus productos. Se aspira a transformar el conocimiento sobre el uso de aceites esenciales en una herramienta accesible para el bienestar, consolidándonos como una fuente confiable de información y productos que contribuyan al equilibrio físico y emocional de los clientes.</p>
+              <h3>Modo de uso</h3>
+                <p>
+                  Usar sobre superficies como cortinas, muebles, y ropa de cama. 
+                </p>
 
-          </div>        
+              </ul>
+          
+            </div>
+          </div>
+
         </div>
+
       </div>
 
-    </section><!-- /About Section -->
-
-
-
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 

@@ -1,15 +1,3 @@
-/**
-* Template Name: Kelly
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -19,10 +7,10 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --background-color: #ffffff9f; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #222222; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #34b7a7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #ac9c11; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -30,11 +18,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #444444;  /* The default color of the main navmenu links */
-  --nav-hover-color: #34b7a7; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #8cca2e; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #34b7a7; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #8cca2e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -177,7 +165,7 @@ h6 {
   padding-left: 6px;
   display: inline-block;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .header .header-social-links a:hover {
@@ -235,7 +223,7 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    font-size: 15px;
+    font-size: 20px;
     padding: 0 2px;
     font-family: var(--nav-font);
     font-weight: 400;
@@ -249,7 +237,7 @@ h6 {
 
   .navmenu a i,
   .navmenu a:focus i {
-    font-size: 12px;
+    font-size: 20px;
     line-height: 0;
     margin-left: 5px;
     transition: 0.3s;
@@ -469,7 +457,7 @@ h6 {
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-size: 14px;
+  font-size: 16px;
   padding: 40px 0;
   position: relative;
 }
@@ -490,7 +478,7 @@ h6 {
   height: 40px;
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
+  font-size: 20px;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   margin: 0 5px;
   transition: 0.3s;
@@ -684,6 +672,7 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -697,6 +686,9 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(to top, rgb(0 0 0 / .05), rgb(0 0 0 / .4) ), url(../img/portada.png);
+background-size: cover;
+background-position: center;
 }
 
 @media (max-width: 1200px) {
@@ -722,14 +714,16 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 70px;
   font-weight: 700;
+  color: rgb(255, 255, 255);
 }
 
 .hero p {
   margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 34px;
   color: var(--heading-color);
+  color: rgb(255, 255, 255);
 }
 
 .hero .btn-get-started {
@@ -738,7 +732,7 @@ section,
   font-family: var(--heading-font);
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
@@ -766,7 +760,15 @@ section,
 --------------------------------------------------------------*/
 .about .content h2 {
   font-weight: 700;
+  font-size: 34px;
+}
+
+.about .container p {
   font-size: 24px;
+}
+
+.about .content p {
+  font-size: 20px;
 }
 
 .about .content ul {
@@ -891,7 +893,7 @@ section,
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 24x;
   font-weight: bold;
   margin: 10px 0 5px 0;
 }
@@ -935,6 +937,7 @@ section,
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  font-size: 24px;
 }
 
 .testimonials .swiper-wrapper {
@@ -1071,7 +1074,7 @@ section,
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -1166,7 +1169,7 @@ section,
   display: inline-block;
   padding: 8px 20px 10px 20px;
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1;
   margin-bottom: 5px;
@@ -1221,7 +1224,7 @@ section,
 
 .portfolio .portfolio-item .portfolio-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0;
   padding-right: 50px;
 }
@@ -1282,7 +1285,7 @@ section,
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -1292,19 +1295,27 @@ section,
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
+  font-size: 22px;
+
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  padding-top: 22px;
 }
 
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description ul {
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1312,6 +1323,7 @@ section,
 .portfolio-details .portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1333,6 +1345,11 @@ section,
   margin-bottom: 40px;
 }
 
+.contact .info-item a{
+  margin-bottom: 40px;
+font-size: 24px;
+}
+
 .contact .info-item i {
   font-size: 20px;
   color: var(--accent-color);
@@ -1349,7 +1366,7 @@ section,
 
 .contact .info-item h3 {
   padding: 0;
-  font-size: 18px;
+  font-size: 26px;
   font-weight: 700;
   margin-bottom: 5px;
 }
